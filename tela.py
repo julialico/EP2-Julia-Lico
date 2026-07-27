@@ -42,7 +42,6 @@ def escrevepremio(valorpremio):
  
  
 def formatamoeda(valor):
-    # transforma 1000000 em "1.000.000" sem usar funcoes prontas de formatacao
     textovalor = str(valor)
     invertido = textovalor[::-1]
     partes = []
@@ -54,7 +53,7 @@ def formatamoeda(valor):
     return resultado[::-1]
  
  
-def exibeManual():
+def exibemanual():
     escreve('==========================================', AZUL)
     escreve('           JOGO DA FORTUNA DESSOFT         ', AZUL + NEGRITO)
     escreve('==========================================', AZUL)
