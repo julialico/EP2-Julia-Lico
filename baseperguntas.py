@@ -57,6 +57,16 @@ quest = [{'titulo': 'Qual o resultado da operação 57 + 32?',
           'nivel': 'facil',
           'opcoes': {'A': 'Natação', 'B': 'Vôlei', 'C': 'Ski Cross Country', 'D': 'Futebol'},
           'correta': 'C'},
+
+          {'titulo': 'Como é o nome do padrinho de Harry Potter, apresentado em Harry Potter e o Prisioneiro de Azkaban?',
+          'nivel': 'facil',
+          'opcoes': {'A': 'Sirius Black', 'B': 'Pedro Pettigrew', 'C': 'Tiago Potter', 'D': 'Remus Lupin'},
+          'correta': 'A'},
+
+          {'titulo': 'Quem canta a música Shake It Off?',
+          'nivel': 'facil',
+          'opcoes': {'A': 'Ariana Grande', 'B': 'Beyoncé', 'C': 'Taylor Swift', 'D': 'Katy Perry'},
+          'correta': 'C'},
          
          {'titulo': 'Qual o resultado da operação 5 + 2 * 3?',
           'nivel': 'medio',
@@ -107,7 +117,12 @@ quest = [{'titulo': 'Qual o resultado da operação 57 + 32?',
           'nivel': 'medio',
           'opcoes': {'A': 'Cristiano Ronaldo', 'B': 'Dwayne Johnson', 'C': 'Kim Kardashian', 'D': 'Lionel Messi'},
           'correta': 'A'},
- 
+
+         {'titulo': 'Qual dessas não é uma marca de cosméticos?',
+          'nivel': 'medio',
+          'opcoes': {'A': 'Haus Labs', 'B': 'Hourglass', 'C': 'Brandy Melville', 'D': 'The Ordinary'},
+          'correta': 'C'},
+          
          {'titulo': 'A reprodução dos seres vivos é um processo biológico através do qual os organismos geram descendência. Qual desta não é uma forma de reprodução assexuada?',
           'nivel': 'dificil',
           'opcoes': {'A': 'Autogamia', 'B': 'Esporulação', 'C': 'Partenogênese', 'D': 'Divisão binária'},
@@ -156,5 +171,15 @@ quest = [{'titulo': 'Qual o resultado da operação 57 + 32?',
          {'titulo': 'O que é Necrose?',
           'nivel': 'dificil',
           'opcoes': {'A': 'Uma banda de Rock', 'B': 'Uma marca de luxo', 'C': 'Cidade Francesa', 'D': 'Morte de tecido orgânico'},
-          'correta': 'D'}
+          'correta': 'D'},
+
+          {'titulo': 'Quem é o cantor famoso por pintar um colorido no rosto?',
+          'nivel': 'dificil',
+          'opcoes': {'A': 'Freddy Mercury', 'B': 'David Bowie', 'C': 'Elvis Presley', 'D': 'Bob Dylan'},
+          'correta': 'B'},
+
+          {'titulo': 'Durante toda a saga de Star Wars, houve algum período em que havia mais Jedis do que Siths?',
+          'nivel': 'dificil',
+          'opcoes': {'A': 'Sim, durante o filme "A Ameaça Fantasma"', 'B': 'Sim, durante toda a saga', 'C': 'Não, pois o número é sempre igual', 'D': 'Não, pois sempre há mais Siths'},
+          'correta': 'B'}
         ]
