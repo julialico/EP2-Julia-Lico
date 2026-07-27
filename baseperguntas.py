@@ -181,5 +181,5 @@ quest = [{'titulo': 'Qual o resultado da operação 57 + 32?',
           {'titulo': 'Durante toda a saga de Star Wars, houve algum período em que havia mais Jedis do que Siths?',
           'nivel': 'dificil',
           'opcoes': {'A': 'Sim, durante o filme "A Ameaça Fantasma"', 'B': 'Sim, durante toda a saga', 'C': 'Não, pois o número é sempre igual', 'D': 'Não, pois sempre há mais Siths'},
-          'correta': 'B'}
+          'correta': 'A'}
         ]
