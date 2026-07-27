@@ -108,3 +108,21 @@ def jogapartida(basepornivel):
                 return 0
  
     return premioatual
+
+def main():
+    if not baseconsistente(quest):
+        tela.escreveerro('A base de perguntas esta inconsistente. Corrija antes de jogar.')
+        return
+ 
+    basepornivel = transforma_base(quest)
+ 
+    jogarnovamente = True
+    while jogarnovamente:
+        jogapartida(basepornivel)
+        resposta = leentrada('Deseja jogar novamente? (SIM/NAO): ')
+        jogarnovamente = (resposta == 'SIM')
+ 
+    tela.escreveinfo('Obrigado por jogar o Jogo da Fortuna DesSoft!')
+ 
+ 
+main()
