@@ -71,9 +71,9 @@ def jogapartida(basepornivel):
                     pulosrestantes = pulosrestantes - 1
                     questao = sorteia_questao_inedita(basepornivel, nivel, sorteadas)
                     ajudausada = False
-                    tela.escreveAviso('Pergunta trocada! Pulos restantes: ' + str(pulosrestantes))
+                    tela.escreveaviso('Pergunta trocada! Pulos restantes: ' + str(pulosrestantes))
                 else:
-                    tela.escreveErro('Voce nao tem mais pulos disponiveis!')
+                    tela.escreveerro('Voce nao tem mais pulos disponiveis!')
  
             elif entrada == 'AJUDA':
                 if ajudausada:
