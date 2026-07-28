@@ -27,10 +27,15 @@ quest = [{'titulo': 'Qual o resultado da operação 57 + 32?',
           'nivel': 'facil',
           'opcoes': {'A': '25 de Janeiro', 'B': '24 de Março', 'C': '9 de Julho', 'D': '12 de Novembro'},
           'correta': 'A'},
- 
-         {'titulo': 'Qual destas não é uma fruta?',
+
+         {'titulo': 'Qual o resultado da operação 3^3, onde ^ representa potenciação?',
           'nivel': 'facil',
-          'opcoes': {'A': 'Laranja', 'B': 'Maça', 'C': 'Tomate', 'D': 'Abacate'},
+          'opcoes': {'A': '81', 'B': '9', 'C': '27', 'D': '243'},
+          'correta': 'C'},
+ 
+         {'titulo': 'Qual destas não é uma atriz?',
+          'nivel': 'facil',
+          'opcoes': {'A': 'Nicole Kidman', 'B': 'Olivia Rodrigo', 'C': 'Anne Hathaway', 'D': 'Dakota Johnson'},
           'correta': 'B'},
  
          {'titulo': 'Em qual ano o TikTok atingiu 1 bilhão de usuários?',
